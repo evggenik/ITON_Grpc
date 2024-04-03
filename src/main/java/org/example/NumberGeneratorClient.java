@@ -1,8 +1,8 @@
 package org.example;
 
-import com.example.GenerateNumberResponse;
-import com.example.NumberGeneratorGrpc;
-import com.example.NumberGeneratorRequest;
+import protobuf.generated.GenerateNumberResponse;
+import protobuf.generated.NumberGeneratorGrpc;
+import protobuf.generated.NumberGeneratorRequest;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import io.grpc.stub.StreamObserver;
