@@ -9,6 +9,8 @@ import io.grpc.stub.StreamObserver;
 
 import java.util.concurrent.TimeUnit;
 
+// just one comment for pull request
+
 public class NumberGeneratorClient {
     private final ManagedChannel channel;
     private final NumberGeneratorGrpc.NumberGeneratorStub stub;
